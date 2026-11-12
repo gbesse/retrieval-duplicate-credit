@@ -1,0 +1,21 @@
+{
+  "ranking": [
+    {
+      "id": "a1",
+      "content_id": "A"
+    },
+    {
+      "id": "a2",
+      "content_id": "A"
+    },
+    {
+      "id": "b",
+      "content_id": "B"
+    }
+  ],
+  "relevance": {
+    "A": true,
+    "B": false
+  },
+  "k": 2
+}

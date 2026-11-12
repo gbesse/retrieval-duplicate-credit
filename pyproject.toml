@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retrieval-duplicate-credit"
+version = "0.1.0a1"
+description = "FR: Exposer le gain artificiel des documents dupliqués | EN: Expose artificial retrieval gains from duplicate documents | ES: Revelar ganancias artificiales por documentos duplicados"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+retrieval-duplicate-credit = "retrieval_duplicate_credit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["retrieval_duplicate_credit*"]

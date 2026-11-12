@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Exposer le gain artificiel des documents dupliqués', 'en': 'Expose artificial retrieval gains from duplicate documents', 'es': 'Revelar ganancias artificiales por documentos duplicados'}
